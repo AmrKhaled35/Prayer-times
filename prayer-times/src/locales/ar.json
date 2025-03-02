@@ -1,0 +1,43 @@
+{
+  "appTitle": "مواقيت الصلاة",
+  "city": "المدينة",
+  "date": "التاريخ",
+  "qiblaDirection": "اتجاه القبلة",
+  "fromNorth": "من الشمال",
+  "weather": "الطقس",
+  "condition": "الحالة",
+  "humidity": "الرطوبة",
+  "temperature": "درجة الحرارة",
+  "locationInfo": "معلومات الموقع",
+  "country": "البلد",
+  "coordinates": "الإحداثيات",
+  "prayerNames": {
+    "Fajr": "الفجر",
+    "Dhuhr": "الظهر",
+    "Asr": "العصر",
+    "Maghrib": "المغرب",
+    "Isha": "العشاء"
+  },
+  "errorMessages": {
+    "qibla": "فشل في حساب اتجاه القبلة",
+    "weather": "فشل في تحميل بيانات الطقس",
+    "temperature": "فشل في تحميل بيانات درجة الحرارة",
+    "prayerTimes": "فشل في جلب مواقيت الصلاة. يرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "ramadan": "رمضان",
+  "ramadanMubarak": "رمضان مبارك",
+  "todayIs": "اليوم هو",
+  "day": "اليوم",
+  "ofRamadan": "من رمضان",
+  "startDate": "تاريخ البداية",
+  "endDate": "تاريخ النهاية",
+  "daysUntilRamadan": "الأيام المتبقية حتى رمضان",
+  "days": "يوم",
+  "duas": "الأدعية",
+  "duaCategory": "التصنيف",
+  "reference": "المرجع",
+  "useMyLocation": "استخدم موقعي",
+  "gettingLocation": "جاري تحديد الموقع...",
+  "taraweehPrayer": "صلاة التراويح",
+  "taraweehNote": "وقت تقديري بناءً على صلاة العشاء المحلية"
+}

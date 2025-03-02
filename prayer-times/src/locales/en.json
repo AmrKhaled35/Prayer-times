@@ -1,0 +1,43 @@
+{
+  "appTitle": "Prayer Times",
+  "city": "City",
+  "date": "Date",
+  "qiblaDirection": "Qibla Direction",
+  "fromNorth": "from North",
+  "weather": "Weather",
+  "condition": "Condition",
+  "humidity": "Humidity",
+  "temperature": "Temperature",
+  "locationInfo": "Location Info",
+  "country": "Country",
+  "coordinates": "Coordinates",
+  "prayerNames": {
+    "Fajr": "Fajr",
+    "Dhuhr": "Dhuhr",
+    "Asr": "Asr",
+    "Maghrib": "Maghrib",
+    "Isha": "Isha"
+  },
+  "errorMessages": {
+    "qibla": "Failed to calculate Qibla direction",
+    "weather": "Failed to load weather data",
+    "temperature": "Failed to load temperature data",
+    "prayerTimes": "Failed to fetch prayer times. Please try again later."
+  },
+  "ramadan": "Ramadan",
+  "ramadanMubarak": "Ramadan Mubarak",
+  "todayIs": "Today is",
+  "day": "Day",
+  "ofRamadan": "of Ramadan",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "daysUntilRamadan": "Days until Ramadan",
+  "days": "days",
+  "duas": "Supplications",
+  "duaCategory": "Category",
+  "reference": "Reference",
+  "useMyLocation": "Use my location",
+  "gettingLocation": "Getting location...",
+  "taraweehPrayer": "Taraweeh Prayer",
+  "taraweehNote": "Estimated time based on local Isha prayer"
+}

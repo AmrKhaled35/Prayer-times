@@ -1,0 +1,212 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html[dir="ltr"] {
+  direction: ltr;
+  font-family: 'Poppins', sans-serif;
+}
+
+html[dir="rtl"] {
+  direction: rtl;
+  font-family: 'Amiri', serif;
+}
+
+html[lang="fr"] {
+  font-family: 'Montserrat', sans-serif;
+}
+
+section{
+  background-image: url('https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?q=80&w=2070&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.glass-effect {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.prayer-time-item {
+  background: rgba(165, 79, 58, 0.6);
+  transition: all 0.3s ease;
+}
+
+.prayer-time-item:hover {
+  background: rgba(165, 79, 58, 0.8);
+  transform: translateY(-2px);
+}
+
+.city-select {
+  background-color: rgba(165, 79, 58, 0.8);
+  transition: all 0.3s ease;
+}
+
+.city-select:focus {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
+}
+
+html[dir="rtl"] .mr-2 {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+html[dir="rtl"] .mr-1 {
+  margin-right: 0;
+  margin-left: 0.25rem;
+}
+
+.compass-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.compass-base {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(165, 79, 58, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compass-needle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+  width: 4px;
+  height: 50%;
+  background: linear-gradient(to bottom, #fbbf24, transparent);
+  transform: translateX(-50%);
+}
+
+.compass-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.compass-marker {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #fbbf24;
+  border-radius: 50%;
+}
+
+.compass-marker.north {
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.compass-marker.east {
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+}
+
+.compass-marker.south {
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.compass-marker.west {
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+}
+
+.compass-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(251, 191, 36, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(251, 191, 36, 0);
+  }
+}
+
+/* Ramadan section styles */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+.twinkle {
+  animation: twinkle 3s infinite ease-in-out;
+}
+
+/* Duas section styles */
+.duas-container {
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(251, 191, 36, 0.5) rgba(0, 0, 0, 0.2);
+}
+
+.duas-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.duas-container::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.duas-container::-webkit-scrollbar-thumb {
+  background-color: rgba(251, 191, 36, 0.5);
+  border-radius: 10px;
+}
+
+.dua-item {
+  background: rgba(165, 79, 58, 0.4);
+  transition: all 0.3s ease;
+}
+
+.dua-item:hover {
+  background: rgba(165, 79, 58, 0.6);
+}
+
+.dua-arabic {
+  font-family: 'Amiri', serif;
+  line-height: 1.8;
+}
+
+@media (max-width: 640px) {
+  .glass-effect {
+    padding: 1rem;
+  }
+}

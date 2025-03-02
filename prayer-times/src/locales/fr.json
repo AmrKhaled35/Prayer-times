@@ -1,0 +1,43 @@
+{
+  "appTitle": "Heures de Prière",
+  "city": "Ville",
+  "date": "Date",
+  "qiblaDirection": "Direction de la Qibla",
+  "fromNorth": "du Nord",
+  "weather": "Météo",
+  "condition": "Condition",
+  "humidity": "Humidité",
+  "temperature": "Température",
+  "locationInfo": "Informations de Localisation",
+  "country": "Pays",
+  "coordinates": "Coordonnées",
+  "prayerNames": {
+    "Fajr": "Fajr",
+    "Dhuhr": "Dhuhr",
+    "Asr": "Asr",
+    "Maghrib": "Maghrib",
+    "Isha": "Isha"
+  },
+  "errorMessages": {
+    "qibla": "Échec du calcul de la direction de la Qibla",
+    "weather": "Échec du chargement des données météo",
+    "temperature": "Échec du chargement des données de température",
+    "prayerTimes": "Échec de la récupération des heures de prière. Veuillez réessayer plus tard."
+  },
+  "ramadan": "Ramadan",
+  "ramadanMubarak": "Ramadan Moubarak",
+  "todayIs": "Aujourd'hui c'est le",
+  "day": "Jour",
+  "ofRamadan": "du Ramadan",
+  "startDate": "Date de début",
+  "endDate": "Date de fin",
+  "daysUntilRamadan": "Jours jusqu'au Ramadan",
+  "days": "jours",
+  "duas": "Invocations",
+  "duaCategory": "Catégorie",
+  "reference": "Référence",
+  "useMyLocation": "Utiliser ma position",
+  "gettingLocation": "Localisation en cours...",
+  "taraweehPrayer": "Prière de Tarawih",
+  "taraweehNote": "Heure estimée basée sur la prière d'Isha locale"
+}
